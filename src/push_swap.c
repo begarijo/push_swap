@@ -49,6 +49,6 @@ int	main(int argc, char **argv)
 	assign_indice(a, size + 1);
 	push_swap(&a, &b, size);
 	free_stack(&a);
-	free(&b);
+	/*free(&b); En principio no sirve PA NA*/
 	return (0);
 }
